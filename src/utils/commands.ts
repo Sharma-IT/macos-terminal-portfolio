@@ -1,4 +1,4 @@
-import type { TerminalCommands } from '~/types/terminal';
+import type { TerminalCommands } from '~/src/types/terminal';
 
 const banner = `
 ██╗   ██╗ ██████╗ ██╗   ██╗██████╗      ██████╗██╗     ██╗

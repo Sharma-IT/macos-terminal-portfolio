@@ -1,9 +1,9 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  css: ['~/assets/css/main.css'],
+  css: ['~/src/styling/main.css'],
   app: {
-    baseURL: '/',
+    baseURL: '/src/pages',
     buildAssetsDir: '/_nuxt/',
     head: {
       title: `Your Portfolio`,
@@ -54,8 +54,8 @@ export default defineNuxtConfig({
         output: {
           manualChunks: {
             'terminal-core': [
-              './components/TerminalPrompt.vue',
-              './utils/commands.ts'
+              './src/components/TerminalPrompt.vue',
+              './src/utils/commands.ts'
             ]
           }
         }

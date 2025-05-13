@@ -29,8 +29,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted, shallowRef, onUnmounted } from 'vue';
-import type { CommandHistory } from '~/types/terminal';
-import { terminalCommands } from '~/utils/commands';
+import type { CommandHistory } from '~/src/types/terminal';
+import { terminalCommands } from '~/src/utils/commands';
 
 const currentCommand = ref('');
 const commandHistory = shallowRef<CommandHistory[]>([]);
