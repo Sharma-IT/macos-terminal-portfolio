@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio website styled like a classic MacOS terminal, built with Nuxt 3. [Try it live](https://shubs-portfolio.netlify.app).
 
-![Uploading image.png…]()
+<img width="1510" alt="image" src="https://github.com/user-attachments/assets/381d3a00-0a47-4e86-a292-96dcd59ab4d0" />
 
 ## Features
 
